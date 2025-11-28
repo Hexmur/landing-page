@@ -1,0 +1,42 @@
+body {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0%;
+  display: flex;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.intro-content {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-items {
+  display: flex;
+  gap: 30px;
+}
